@@ -158,7 +158,7 @@ const NavBar = () => {
             target={"_blank"}
             rel="noreferrer"
           >
-            <FaInstagram size={30} />z
+            <FaInstagram size={30} />
           </a>
         </li>
         <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">

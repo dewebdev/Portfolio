@@ -35,14 +35,16 @@ const Github = () => {
   );
 };
 
-const Resume = () => {
+const Resume = (props) => {
   return (
     <a
       href="https://drive.google.com/file/d/1ie2UDrW10UxEIj7ryx0d1oYsgY3O_CB_/view?usp=sharing"
       target={"_blank"}
       rel="noreferrer"
+      className="flex justify-center items-center"
     >
       <BsFillPersonFill size={30} />
+      {props.name}
     </a>
   );
 };

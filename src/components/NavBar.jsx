@@ -1,14 +1,7 @@
 import React, { useState } from "react";
 import NavLogo from "../assets/logo.png";
-import {
-  FaBars,
-  FaTimes,
-  FaInstagram,
-  FaGithub,
-  FaLinkedin,
-} from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonFill } from "react-icons/bs";
+import { Linkedln, Instagram, Github, Resume, Email } from "./social_links";
+import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
 
 const NavBar = () => {
@@ -133,53 +126,23 @@ const NavBar = () => {
       <ul className="hidden lg:flex fixed flex-col top-[35%] left-0 text-gray-300">
         <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0e76a8]">
           <span>Linkedin</span>
-          <a
-            href="https://www.linkedin.com/in/dhanush-kumar-shetty-9b18a319a/"
-            target={"_blank"}
-            rel="noreferrer"
-          >
-            <FaLinkedin size={30} />
-          </a>
+          <Linkedln />
         </li>
         <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
           <span>Github</span>
-          <a
-            href="https://github.com/God3ly"
-            target={"_blank"}
-            rel="noreferrer"
-          >
-            <FaGithub size={30} />
-          </a>
+          <Github />
         </li>
         <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#E1306C]">
           <span>Instagram</span>
-          <a
-            href="https://www.instagram.com/dewebdev/"
-            target={"_blank"}
-            rel="noreferrer"
-          >
-            <FaInstagram size={30} />
-          </a>
+          <Instagram />
         </li>
         <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
           <span>Resume</span>
-          <a
-            href="https://drive.google.com/file/d/1ie2UDrW10UxEIj7ryx0d1oYsgY3O_CB_/view?usp=sharing"
-            target={"_blank"}
-            rel="noreferrer"
-          >
-            <BsFillPersonFill size={30} />
-          </a>
+          <Resume />
         </li>
         <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#2BAE66FF]">
           <span>Email</span>
-          <a
-            href="mailto:dhanushshetty201@gmail.com"
-            target={"_blank"}
-            rel="noreferrer"
-          >
-            <HiOutlineMail size={30} />
-          </a>
+          <Email />
         </li>
       </ul>
 

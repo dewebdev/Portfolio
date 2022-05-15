@@ -5,6 +5,7 @@ import JS from "../assets/javascript.png";
 import REACT from "../assets/react.png";
 import GITHUB from "../assets/github.png";
 import FIGMA from "../assets/figma.png";
+import Skillcard from "./Skillcard";
 
 const Skills = () => {
   return (
@@ -20,34 +21,12 @@ const Skills = () => {
           </p>
         </div>
         <div className="w-full grid sm:grid-cols-6 grid-cols-2 gap-8 py-4 text-center">
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img src={HTML} alt="HTML_ICON" className=" mx-auto w-20"></img>
-            <p className="py-4">HTML</p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img src={CSS} alt="CSS_ICON" className=" mx-auto w-20"></img>
-            <p className="py-4">CSS</p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img src={JS} alt="JAVASCRIPT_ICON" className=" mx-auto w-20"></img>
-            <p className="py-4">Javascript</p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img src={REACT} alt="REACT_ICON" className=" mx-auto w-20"></img>
-            <p className="py-4">React</p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img src={GITHUB} alt="GITHUB_ICON" className=" mx-auto w-20"></img>
-            <p className="py-4">Github</p>
-          </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img
-              src={FIGMA}
-              alt="FIGMA_ICON"
-              className=" pt-2 mx-auto w-12"
-            ></img>
-            <p className="py-4">Figma</p>
-          </div>
+          <Skillcard image={HTML} text="HTML" />
+          <Skillcard image={CSS} text="CSS" />
+          <Skillcard image={JS} text="JavaScript" />
+          <Skillcard image={REACT} text="React" />
+          <Skillcard image={GITHUB} text="GitHub" />
+          <Skillcard image={FIGMA} text="Figma" />
         </div>
       </div>
     </div>

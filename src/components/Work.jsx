@@ -1,5 +1,6 @@
 import React from "react";
 import workImg from "../assets/workImg.jpeg";
+import WorkCard from "./WorkCard";
 
 const Work = () => {
   return (
@@ -15,33 +16,13 @@ const Work = () => {
 
         {/* Container */}
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
-          {/* Grid Item */}
-          <div
-            style={{ backgroundImage: `url(${workImg})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            {/* Start: hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100">
-              <span className="font-bold text-white tracking-wider text-2xl">
-                React Js Application
-              </span>
-              <div className="pt-8 text-center">
-                <a href="/">
-                  <button className="text-center font-bold rounded-lg px-4 py-3 m-2 bg-white text-gray-700 text-lg">
-                    Demo
-                  </button>
-                </a>
-                <a href="/">
-                  <button className="text-center font-bold rounded-lg px-4 py-3 m-2 bg-white text-gray-700 text-lg">
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-            {/* End: hover effects */}
-          </div>
+          <WorkCard img={workImg} demoLink="" codeLink="" />
+          <WorkCard img={workImg} demoLink="" codeLink="" />
+          <WorkCard img={workImg} demoLink="" codeLink="" />
+          <WorkCard img={workImg} demoLink="" codeLink="" />
+          <WorkCard img={workImg} demoLink="" codeLink="" />
+          <WorkCard img={workImg} demoLink="" codeLink="" />
         </div>
-        {/* End :Card Creation */}
       </div>
     </div>
   );

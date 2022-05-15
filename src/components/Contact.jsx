@@ -36,7 +36,7 @@ const Contact = () => {
           placeholder="Message"
           name="message"
         />
-        <button className="mt-4 font-bold text-white border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 my-8 mx-auto items-center">
+        <button className="mt-10 font-bold text-white border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 mx-auto items-center">
           Let's Collaborate
         </button>
       </form>

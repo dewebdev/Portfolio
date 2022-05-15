@@ -1,12 +1,6 @@
 import React, { useState } from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
-import {
-  FaInstagram,
-  FaGithub,
-  FaLinkedin,
-} from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonFill } from "react-icons/bs";
+import { Linkedln, Instagram, Github, Resume, Email } from "./social_links";
 
 const Home = () => {
   const [viewWork, setViewWork] = useState(false);
@@ -16,7 +10,7 @@ const Home = () => {
   return (
     <div name="home" className="w-full h-screen bg-[#0a192f]">
       <div className="max-w-[1000px] mx-auto flex flex-col justify-center h-full text-white">
-        <p className="text-pink-600">Hi, my name is</p>
+        <p className="text-pink-600 text-2xl">Hi, my name is</p>
         <h1 className="text-4xl lg:text-7xl font-bold text-[#ccd6f6]">
           Dhanush Kumar Shetty
         </h1>
@@ -41,49 +35,19 @@ const Home = () => {
         {viewWork && (
           <ul className="lg:hidden flex mt-5 left-0 text-gray-300s">
             <li className="h-[60px] flex justify-between items-center bg-[#0e76a8]">
-              <a
-                href="https://www.linkedin.com/in/dhanush-kumar-shetty-9b18a319a/"
-                target={"_blank"}
-                rel="noreferrer"
-              >
-                <FaLinkedin size={30} />
-              </a>
+              <Linkedln />
             </li>
             <li className="h-[60px] flex justify-between items-center bg-[#333333]">
-              <a
-                href="https://github.com/God3ly"
-                target={"_blank"}
-                rel="noreferrer"
-              >
-                <FaGithub size={30} />
-              </a>
+              <Github />
             </li>
             <li className="h-[60px] flex justify-between items-center bg-[#E1306C]">
-              <a
-                href="https://www.instagram.com/dewebdev/"
-                target={"_blank"}
-                rel="noreferrer"
-              >
-                <FaInstagram size={30} />
-              </a>
+              <Instagram />
             </li>
             <li className="h-[60px] flex justify-between items-center  bg-[#565f69]">
-              <a
-                href="https://drive.google.com/file/d/1ie2UDrW10UxEIj7ryx0d1oYsgY3O_CB_/view?usp=sharing"
-                target={"_blank"}
-                rel="noreferrer"
-              >
-                <BsFillPersonFill size={30} />
-              </a>
+              <Resume />
             </li>
             <li className="h-[60px] flex justify-between items-center  bg-[#2BAE66FF]">
-              <a
-                href="mailto:dhanushshetty201@gmail.com"
-                target={"_blank"}
-                rel="noreferrer"
-              >
-                <HiOutlineMail size={30} />
-              </a>
+              <Email />
             </li>
           </ul>
         )}

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-scroll";
 
@@ -18,14 +18,14 @@ const Home = () => {
           designing) expectional digital experiences.Currently I'm focused on
           building responsive full-stack web applications.
         </p>
-        <div>
-          <button className="group flex items-center border-2 px-3 py-3 hover:bg-pink-600 hover:border-pink-600">
-            <Link to="footer" smooth={true} duration={500}>
+        <Link to="footer" smooth={true} duration={500}>
+          <div>
+            <button className=" group flex items-center border-2 px-3 py-3 hover:bg-pink-600 hover:border-pink-600">
               Connect With Me
-            </Link>
-            <HiArrowNarrowRight className="ml-3 group-hover:rotate-90 duration-300" />
-          </button>
-        </div>
+              <HiArrowNarrowRight className="ml-3 group-hover:rotate-90 duration-300" />
+            </button>
+          </div>
+        </Link>
       </div>
     </div>
   );

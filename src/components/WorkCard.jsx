@@ -9,7 +9,7 @@ const WorkCard = (props) => {
       {/* Start: hover Effects */}
       <div className="opacity-0 group-hover:opacity-100">
         <span className="font-bold text-white tracking-wider text-2xl">
-          React Js Application
+          {props.title}
         </span>
         <div className="pt-8 text-center">
           <a href={props.demoLink} target="_blank" rel="noreferrer">

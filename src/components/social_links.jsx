@@ -1,7 +1,6 @@
 import React from "react";
 import { FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonFill } from "react-icons/bs";
 
 const Linkedln = () => {
   return (

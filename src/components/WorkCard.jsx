@@ -12,12 +12,12 @@ const WorkCard = (props) => {
           React Js Application
         </span>
         <div className="pt-8 text-center">
-          <a href={props.demoLink}>
+          <a href={props.demoLink} target="_blank" rel="noreferrer">
             <button className="text-center font-bold rounded-lg px-4 py-3 m-2 bg-white text-gray-700 text-lg">
               Demo
             </button>
           </a>
-          <a href={props.codeLink}>
+          <a href={props.codeLink} target="_blank" rel="noreferrer">
             <button className="text-center font-bold rounded-lg px-4 py-3 m-2 bg-white text-gray-700 text-lg">
               Code
             </button>

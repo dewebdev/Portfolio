@@ -43,7 +43,6 @@ const Resume = (props) => {
       rel="noreferrer"
       className="flex justify-center items-center"
     >
-      <BsFillPersonFill size={30} />
       {props.name}
     </a>
   );

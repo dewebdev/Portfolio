@@ -16,7 +16,7 @@ const Footer = () => {
           <Instagram />
         </li>
         <li className="w-[160px] h-[60px] flex justify-between items-center  hover:bg-[#565f69]">
-          <Resume name="Resume" />
+          <Resume name="Resume"/>
         </li>
         <li className="w-[160px] h-[60px] flex justify-between items-center hover:bg-[#2BAE66FF]">
           <Email />

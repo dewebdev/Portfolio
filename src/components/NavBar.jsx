@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import NavLogo from "../assets/logo.png";
-import { Linkedln, Instagram, Github, Resume, Email } from "./social_links";
+import { Linkedln, Instagram, Github, Email } from "./social_links";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
 import { BsFillPersonFill } from "react-icons/bs";

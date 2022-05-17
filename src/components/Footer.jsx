@@ -25,7 +25,7 @@ const Footer = () => {
 
       {/* End: Socail Icons */}
       <p className="text-gray-500 p-5 ">
-        copyright@2020 deWebDev All rights reserved
+        copyright@2022 deWebDev All rights reserved
       </p>
     </div>
   );

@@ -18,7 +18,7 @@ const Home = () => {
           designing) expectional digital experiences.Currently I'm focused on
           building responsive full-stack web applications.
         </p>
-        <Link to="footer" smooth={true} duration={500}>
+        <Link to="footer" smooth={true} duration={2000}>
           <div>
             <button className=" group flex items-center border-2 px-3 py-3 hover:bg-pink-600 hover:border-pink-600">
               Connect With Me

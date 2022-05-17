@@ -3,6 +3,7 @@ import NavLogo from "../assets/logo.png";
 import { Linkedln, Instagram, Github, Resume, Email } from "./social_links";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
+import { BsFillPersonFill } from "react-icons/bs";
 
 const NavBar = () => {
   const [Toggle, setToggle] = useState(false);
@@ -138,7 +139,7 @@ const NavBar = () => {
         </li>
         <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
           <span>Resume</span>
-          <Resume />
+          <BsFillPersonFill size={30} />
         </li>
         <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#2BAE66FF]">
           <span>Email</span>

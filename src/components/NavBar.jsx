@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import NavLogo from "../assets/logo.png";
 import { Linkedln, Instagram, Github, Email } from "./social_links";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
 import { BsFillPersonFill } from "react-icons/bs";
+import NavLogo2 from "../assets/web.png"
 
 const NavBar = () => {
   const [Toggle, setToggle] = useState(false);
@@ -15,7 +15,7 @@ const NavBar = () => {
   return (
     <div className="fixed w-full h-[80px] bg-[#0a192f] flex  items-center justify-between text-gray-300">
       <div>
-        <img src={NavLogo} alt="logo" style={{ width: "50px" }} />
+        <img src={NavLogo2} alt="logo" style={{ width: "125px",height:"135px",marginLeft:"-5px"}} />
       </div>
 
       {/* Start: Navigation Menu Links */}

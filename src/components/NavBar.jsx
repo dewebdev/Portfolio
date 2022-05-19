@@ -15,7 +15,7 @@ const NavBar = () => {
   return (
     <div className="fixed w-full h-[80px] bg-[#0a192f] flex  items-center justify-between text-gray-300">
       <div>
-        <img src={NavLogo2} alt="logo" style={{ width: "125px",height:"135px",marginLeft:"-5px"}} />
+        <img src={NavLogo2} alt="logo" style={{ width: "125px",height:"135px"}} />
       </div>
 
       {/* Start: Navigation Menu Links */}

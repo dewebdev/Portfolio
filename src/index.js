@@ -16,4 +16,11 @@ root.render(
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://cra.link/PWA
 serviceWorkerRegistration.register();
+<<<<<<< HEAD
+=======
+
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+>>>>>>> dfce128af5fa20f1352d3ac495dcee90009a102d
 reportWebVitals();

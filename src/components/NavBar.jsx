@@ -3,7 +3,7 @@ import { Linkedln, Instagram, Github, Email } from "./social_links";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
 import { BsFillPersonFill } from "react-icons/bs";
-import NavLogo2 from "../assets/web.png"
+import NavLogo2 from "../assets/web.png";
 
 const NavBar = () => {
   const [Toggle, setToggle] = useState(false);
@@ -13,9 +13,13 @@ const NavBar = () => {
   }
 
   return (
-    <div className="fixed w-full h-[80px] bg-[#0a192f] flex  items-center justify-between text-gray-300">
+    <div className=" z-10 fixed w-full h-[80px] bg-[#0a192f] flex  items-center justify-between text-gray-300">
       <div>
-        <img src={NavLogo2} alt="logo" style={{ width: "125px",height:"135px"}} />
+        <img
+          src={NavLogo2}
+          alt="logo"
+          style={{ width: "125px", height: "135px" }}
+        />
       </div>
 
       {/* Start: Navigation Menu Links */}

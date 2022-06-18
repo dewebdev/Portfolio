@@ -5,6 +5,7 @@ const Footer = () => {
   return (
     <div name="footer" className="w-full h-full text-center bg-[#0a192f]">
       {/* Start: Social Icons */}
+
       <ul className="sm:hidden flex justify-center items-center text-gray-300">
         <li className="w-[160px] h-[60px] flex justify-between items-center hover:bg-[#0e76a8]">
           <Linkedln />

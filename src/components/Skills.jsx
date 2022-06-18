@@ -26,7 +26,7 @@ const Skills = () => {
           <Skillcard image={JS} text="JavaScript" />
           <Skillcard image={REACT} text="React" />
           <Skillcard image={GITHUB} text="GitHub" />
-          <Skillcard image={FIGMA} text="Figma"/>
+          <Skillcard image={FIGMA} text="Figma" />
         </div>
       </div>
     </div>

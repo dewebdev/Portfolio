@@ -1,5 +1,5 @@
 import React from "react";
-import { Bounce, Fade } from "react-awesome-reveal";
+import {Fade } from "react-awesome-reveal";
 
 const About = () => {
   return (

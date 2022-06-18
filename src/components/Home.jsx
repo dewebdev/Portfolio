@@ -1,7 +1,7 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-scroll";
-import { AttentionSeeker, Slide, Zoom } from "react-awesome-reveal";
+import { AttentionSeeker, Slide } from "react-awesome-reveal";
 
 const Home = () => {
   return (

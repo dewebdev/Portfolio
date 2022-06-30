@@ -20,14 +20,14 @@ const Work = () => {
           <WorkCard
             img={MovieLand}
             demoLink="https://movi3land.netlify.app/"
-            codeLink="https://github.com/God3ly/MovieLand"
+            codeLink="https://github.com/dewebdev/MovieLand"
             title="Api React Website"
           />
           <WorkCard
             img={ExpenseTracker}
-            demoLink="https://God3ly.github.io/ExpenseTracker"
-            codeLink="https://github.com/God3ly/ExpenseTracker"
-            title="React Js Application"
+            demoLink="https://dewebdev.github.io/ExpenseTracker/"
+            codeLink="https://github.com/dewebdev/ExpenseTracker"
+            title="Front End Application"
           />
         </div>
       </div>

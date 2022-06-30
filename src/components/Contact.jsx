@@ -1,5 +1,5 @@
 import React from "react";
-import { AttentionSeeker,Flip } from "react-awesome-reveal";
+import { AttentionSeeker, Zoom } from "react-awesome-reveal";
 
 const Contact = () => {
   return (
@@ -7,7 +7,7 @@ const Contact = () => {
       name="contact"
       className="w-full h-screen bg-[#0a192f] flex justify-center items-center"
     >
-      <Flip>
+      <Zoom>
         <form
           action="https://getform.io/f/e014851c-e797-463c-a708-9dd20f30cf23"
           method="POST"
@@ -45,7 +45,7 @@ const Contact = () => {
             </button>
           </AttentionSeeker>
         </form>
-      </Flip>
+      </Zoom>
     </div>
   );
 };

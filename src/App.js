@@ -6,7 +6,7 @@ import Skills from "./components/Skills";
 import Work from "./components/Work";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";
+import PropagateLoader from "react-spinners/PropagateLoader";
 
 function App() {
   let [loading, setLoading] = useState(false);
@@ -21,7 +21,7 @@ function App() {
     <div className="App">
       {loading ? (
         <div className="flex flex-col justify-center items-center h-screen w-screen  bg-[#0a192f]">
-          <ClimbingBoxLoader color="#e2196c" loading={loading} size={25} />
+          <PropagateLoader color="#e2196c" loading={loading} size={25} />
         </div>
       ) : (
         <div>

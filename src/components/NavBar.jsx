@@ -65,64 +65,54 @@ const NavBar = () => {
         }
       >
         <li className="py-6 text-4xl">
-          <li>
-            <Link
-              onClick={handleToggleClick}
-              to="home"
-              smooth={true}
-              duration={500}
-            >
-              Home
-            </Link>
-          </li>
+          <Link
+            onClick={handleToggleClick}
+            to="home"
+            smooth={true}
+            duration={500}
+          >
+            Home
+          </Link>
         </li>
         <li className="py-6 text-4xl">
-          <li>
-            <Link
-              onClick={handleToggleClick}
-              to="about"
-              smooth={true}
-              duration={500}
-            >
-              About
-            </Link>
-          </li>
+          <Link
+            onClick={handleToggleClick}
+            to="about"
+            smooth={true}
+            duration={500}
+          >
+            About
+          </Link>
         </li>
         <li className="py-6 text-4xl">
-          <li>
-            <Link
-              onClick={handleToggleClick}
-              to="skills"
-              smooth={true}
-              duration={500}
-            >
-              Skills
-            </Link>
-          </li>
+          <Link
+            onClick={handleToggleClick}
+            to="skills"
+            smooth={true}
+            duration={500}
+          >
+            Skills
+          </Link>
         </li>
         <li className="py-6 text-4xl">
-          <li>
-            <Link
-              onClick={handleToggleClick}
-              to="work"
-              smooth={true}
-              duration={500}
-            >
-              Work
-            </Link>
-          </li>
+          <Link
+            onClick={handleToggleClick}
+            to="work"
+            smooth={true}
+            duration={500}
+          >
+            Work
+          </Link>
         </li>
         <li className="py-6 text-4xl">
-          <li>
-            <Link
-              onClick={handleToggleClick}
-              to="contact"
-              smooth={true}
-              duration={500}
-            >
-              Contact
-            </Link>
-          </li>
+          <Link
+            onClick={handleToggleClick}
+            to="contact"
+            smooth={true}
+            duration={500}
+          >
+            Contact
+          </Link>
         </li>
       </ul>
       {/* End: Mobile Navigation Menu Links */}

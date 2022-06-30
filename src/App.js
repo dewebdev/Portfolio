@@ -6,7 +6,7 @@ import Skills from "./components/Skills";
 import Work from "./components/Work";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import PropagateLoader from "react-spinners/PropagateLoader";
+import HashLoader from "react-spinners/HashLoader";
 
 function App() {
   let [loading, setLoading] = useState(false);
@@ -20,8 +20,8 @@ function App() {
   return (
     <div className="App">
       {loading ? (
-        <div className="flex flex-col justify-center items-center h-screen w-screen  bg-[#0a192f]">
-          <PropagateLoader color="#e2196c" loading={loading} size={25} />
+        <div className="flex flex justify-center items-center h-screen w-screen  bg-[#0a192f]">
+          <HashLoader color="#e2196c" loading={loading} size={200} />
         </div>
       ) : (
         <div>

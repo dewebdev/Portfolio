@@ -3,7 +3,7 @@ import { Linkedln, Instagram, Github, Email } from "./social_links";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
 import { BsFillPersonFill } from "react-icons/bs";
-import NavLogo2 from "../assets/web.png";
+import NavLogo2 from "../assets/web-min.png";
 
 const NavBar = () => {
   const [Toggle, setToggle] = useState(false);

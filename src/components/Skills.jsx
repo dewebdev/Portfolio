@@ -1,10 +1,10 @@
 import React from "react";
-import HTML from "../assets/html.png";
-import CSS from "../assets/css.png";
-import JS from "../assets/javascript.png";
-import REACT from "../assets/react.png";
-import GITHUB from "../assets/github.png";
-import FIGMA from "../assets/figma.png";
+import HTML from "../assets/html-min.png";
+import CSS from "../assets/css-min.png";
+import JS from "../assets/javascript-min.png";
+import REACT from "../assets/react-min.png";
+import GITHUB from "../assets/github-min.png";
+import FIGMA from "../assets/figma-min.png";
 import Skillcard from "./Skillcard";
 
 const Skills = () => {

@@ -1,7 +1,8 @@
 import React from "react";
 import WorkCard from "./WorkCard";
-import MovieLand from "../assets/movieland.png";
-import ExpenseTracker from "../assets/expenseTracker.png";
+import MovieLand from "../assets/movieland-min.png";
+import ExpenseTracker from "../assets/expenseTracker-min.png";
+import artefactTattoos from "../assets/artefacttattoosbusiness-min.png";
 
 const Work = () => {
   return (
@@ -17,6 +18,12 @@ const Work = () => {
 
         {/* Container */}
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+          <WorkCard
+            img={artefactTattoos}
+            demoLink="https://artefactTattoos.com/"
+            codeLink="https://github.com/dewebdev/artefacttattoos"
+            title="Client Business Project"
+          />
           <WorkCard
             img={MovieLand}
             demoLink="https://movi3land.netlify.app/"

@@ -1,8 +1,8 @@
 import React from "react";
 import WorkCard from "./WorkCard";
-import MovieLand from "../assets/movieland-min.png";
-import ExpenseTracker from "../assets/expenseTracker-min.png";
-import artefactTattoos from "../assets/artefacttattoosbusiness-min.png";
+import MovieLand from "../assets/movieland-min.webp";
+import ExpenseTracker from "../assets/expenseTracker-min.webp";
+import artefactTattoos from "../assets/artefacttattoosbusiness-min.webp";
 
 const Work = () => {
   return (

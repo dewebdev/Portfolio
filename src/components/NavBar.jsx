@@ -133,7 +133,12 @@ const NavBar = () => {
         </li>
         <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
           <span>Resume</span>
-          <BsFillPersonFill size={30} />
+          <a
+            href="https://drive.google.com/file/d/1ie2UDrW10UxEIj7ryx0d1oYsgY3O_CB_/view?usp=sharing"
+            target="_blank"
+          >
+            <BsFillPersonFill size={30} />
+          </a>
         </li>
         <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#2BAE66FF]">
           <span>Email</span>

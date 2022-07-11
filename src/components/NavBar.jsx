@@ -136,6 +136,7 @@ const NavBar = () => {
           <a
             href="https://drive.google.com/file/d/1ie2UDrW10UxEIj7ryx0d1oYsgY3O_CB_/view?usp=sharing"
             target="_blank"
+            rel="noreferrer"
           >
             <BsFillPersonFill size={30} />
           </a>

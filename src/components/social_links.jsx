@@ -28,7 +28,7 @@ const Instagram = () => {
 
 const Github = () => {
   return (
-    <a href="https://github.com/God3ly" target={"_blank"} rel="noreferrer">
+    <a href="https://github.com/dewebdev" target={"_blank"} rel="noreferrer">
       <FaGithub size={30} />
     </a>
   );

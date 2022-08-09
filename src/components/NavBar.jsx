@@ -119,19 +119,19 @@ const NavBar = () => {
 
       {/* Start: Social Icons */}
       <ul className="hidden lg:flex fixed flex-col top-[35%] left-0 text-gray-300">
-        <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0e76a8]">
+        <li className="w-[160px] h-[60px] cursor-auto flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0e76a8]">
           <span>Linkedin</span>
           <Linkedln />
         </li>
-        <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
+        <li className="w-[160px] h-[60px] cursor-auto flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
           <span>Github</span>
           <Github />
         </li>
-        <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#E1306C]">
+        <li className="w-[160px] h-[60px] cursor-auto flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#E1306C]">
           <span>Instagram</span>
           <Instagram />
         </li>
-        <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
+        <li className="w-[160px] h-[60px] cursor-auto flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
           <span>Resume</span>
           <a
             href="https://drive.google.com/file/d/1ie2UDrW10UxEIj7ryx0d1oYsgY3O_CB_/view?usp=sharing"
@@ -141,7 +141,7 @@ const NavBar = () => {
             <BsFillPersonFill size={30} />
           </a>
         </li>
-        <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#2BAE66FF]">
+        <li className="w-[160px] h-[60px] cursor-auto flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#2BAE66FF]">
           <span>Email</span>
           <Email />
         </li>

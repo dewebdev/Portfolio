@@ -1,5 +1,5 @@
 import React from "react";
-import { Linkedln, Instagram, Github, Resume, Email } from "./social_links";
+import { Linkedln, Instagram, Github, Resume, Whatsapp } from "./social_links";
 
 const Footer = () => {
   return (
@@ -20,7 +20,7 @@ const Footer = () => {
           <Resume name="Resume" />
         </li>
         <li className="w-[160px] h-[60px] flex justify-between items-center hover:bg-[#2BAE66FF]">
-          <Email />
+          <Whatsapp />
         </li>
       </ul>
 

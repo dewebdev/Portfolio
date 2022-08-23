@@ -1,7 +1,5 @@
 import React from "react";
 import WorkCard from "./WorkCard";
-import MovieLand from "../assets/movieland-min.webp";
-import ExpenseTracker from "../assets/expenseTracker-min.webp";
 import artefactTattoos from "../assets/artefacttattoosbusiness-min.webp";
 
 const Work = () => {
@@ -21,20 +19,8 @@ const Work = () => {
           <WorkCard
             img={artefactTattoos}
             demoLink="https://artefactTattoos.com/"
-            codeLink="https://github.com/dewebdev/artefacttattoos"
+            codeLink="https://github.com/sujesh-gs/artefacttattoos"
             title="Client Business Project"
-          />
-          <WorkCard
-            img={MovieLand}
-            demoLink="https://movi3land.netlify.app/"
-            codeLink="https://github.com/dewebdev/MovieLand"
-            title="Api React Website"
-          />
-          <WorkCard
-            img={ExpenseTracker}
-            demoLink="https://dewebdev.github.io/ExpenseTracker/"
-            codeLink="https://github.com/dewebdev/ExpenseTracker"
-            title="Front End Application"
           />
         </div>
       </div>

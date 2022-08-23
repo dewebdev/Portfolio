@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Linkedln, Instagram, Github, Email } from "./social_links";
+import { Linkedln, Instagram, Github, Whatsapp } from "./social_links";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
 import { BsFillPersonFill } from "react-icons/bs";
@@ -142,8 +142,8 @@ const NavBar = () => {
           </a>
         </li>
         <li className="w-[160px] h-[60px] cursor-auto flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#2BAE66FF]">
-          <span>Email</span>
-          <Email />
+          <span>Whatsapp</span>
+          <Whatsapp />
         </li>
       </ul>
 

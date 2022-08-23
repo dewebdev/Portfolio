@@ -1,6 +1,6 @@
 import React from "react";
 import { FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/hi";
+import { AiOutlineWhatsApp } from "react-icons/ai";
 
 const Linkedln = () => {
   return (
@@ -47,16 +47,16 @@ const Resume = (props) => {
   );
 };
 
-const Email = () => {
+const Whatsapp = () => {
   return (
     <a
-      href="mailto:dhanushshetty201@gmail.com"
+      href="https://wa.me/message/SCCSN7JO2L6CO1"
       target={"_blank"}
       rel="noreferrer"
     >
-      <HiOutlineMail size={30} />
+      <AiOutlineWhatsApp size={30} />
     </a>
   );
 };
 
-export { Linkedln, Instagram, Github, Resume, Email };
+export { Linkedln, Instagram, Github, Resume, Whatsapp };

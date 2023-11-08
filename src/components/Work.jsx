@@ -2,6 +2,9 @@ import React from "react";
 import WorkCard from "./WorkCard";
 import artefactTattoos from "../assets/artefacttattoosbusiness-min.webp";
 import fimSevenValetParking from "../assets/fimSevenValetParking.png";
+import petadoptpia from "../assets/petadoptpia.png";
+import cndwaste from "../assets/cndwaste.png";
+import rhonak from "../assets/rhonak.png";
 
 const Work = () => {
   return (
@@ -28,6 +31,24 @@ const Work = () => {
             demoLink="https://fimsevenvaletparking.netlify.com/"
             codeLink="https://github.com/dewebdev/fim7parking"
             title="Valet Parking Project"
+          />
+          <WorkCard
+            img={petadoptpia}
+            demoLink="https://dewebdev.github.io/PetAdoptopia/"
+            codeLink="https://github.com/dewebdev/PetAdoptopia"
+            title="petadopt Project"
+          />
+          <WorkCard
+            img={cndwaste}
+            demoLink="https://buildingwastetmcmdb.web.app/"
+            codeLink="https://github.com/cndwastemanagement/cndmoodubidire"
+            title="cnd waste management Project"
+          />
+          <WorkCard
+            img={rhonak}
+            demoLink="https://www.rhonak.in/"
+            codeLink="https://github.com/dewebdev/rhonak"
+            title="Client Website - in Development"
           />
         </div>
       </div>
